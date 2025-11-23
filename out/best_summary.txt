@@ -1,0 +1,14 @@
+=== Cross-Validation Overview (c,d) ===
+       model  rmse_mean  rmse_std  mae_mean  mae_std
+ItemCF (MSD)   1.551502  0.013847  1.151499 0.011786
+         PMF   0.886971  0.004330  0.682970 0.004149
+UserCF (MSD)   0.960039  0.004074  0.737823 0.004296
+
+Best by RMSE: PMF
+Best by MAE : PMF
+
+=== Similarity Impact (e) ===
+See similarity_user.csv / similarity_item.csv and the inline plots.
+
+=== Neighbor Sweep (f,g) ===
+See neighbors_user.csv / neighbors_item.csv and the inline plots.
